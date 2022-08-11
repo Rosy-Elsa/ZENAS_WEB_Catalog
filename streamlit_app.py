@@ -9,12 +9,12 @@ my_data_row = my_cur.fetchall()
 df = pandas.DataFrame(my_data_row)
 streamlit.header("Zena's Amazing Athleisure Catalog")
 streamlit.text('Pick a sweatsuit color or style:')
-streamlit.write(df)
+#streamlit.write(df)
 
 # put the first column into a list
 color_list = df[0].values.tolist()
 # print(color_list)
 
-streamlit.multiselect(color_list)
+streamlit.multiselect(color_list.list())
 
 
