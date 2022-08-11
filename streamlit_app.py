@@ -16,7 +16,7 @@ color_list = df[0].values.tolist()
 # print(color_list)
 
 #streamlit.multiselect(list(color_list))
-streamlit.multiselect("Pick a sweatsuit color or style:", list(color_list))
 #streamlit.multiselect("Pick a sweatsuit color or style:", list(color_list))
+streamlit.multiselect(list(color_list))
 
 
