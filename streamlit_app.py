@@ -15,4 +15,6 @@ streamlit.write(df)
 color_list = df[0].values.tolist()
 # print(color_list)
 
+streamlit.multiselect("Pick some fruits:", list(color_list))
+
 
