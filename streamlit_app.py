@@ -15,6 +15,7 @@ streamlit.text('Pick a sweatsuit color or style:')
 color_list = df[0].values.tolist()
 # print(color_list)
 
-streamlit.multiselect(color_list.list())
+streamlit.multiselect(list(color_list))
+#fruits_selected = streamlit.multiselect("Pick some fruits:", list(my_fruit_list.index),['Avocado','Strawberries'])
 
 
