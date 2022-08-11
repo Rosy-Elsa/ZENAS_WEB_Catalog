@@ -8,5 +8,5 @@ import streamlit
 streamlit.header("Zena's Amazing Athleisure Catalog")
 streamlit.text('Pick a sweatsuit color or style:')
 
-strealit.write(df)
+streamlit.write(df)
 
